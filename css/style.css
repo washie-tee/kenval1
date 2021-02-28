@@ -20,7 +20,7 @@ background-color: #6351ce;
   height: 100vh;
   min-height: 300px;
   background: no-repeat center center scroll;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover; */
   background-size: cover;
 }
 .carousel-caption {
@@ -59,7 +59,12 @@ background-color: #6351ce;
     padding: 1px 5px;
     font-size: 18px;
     line-height: 0.3;
-    background: #fff;
+   
+  }
+  .carousel-item {
+    height: auto;
+    background: no-repeat center center scroll;
+   
   }
 }
 /* About Section */
@@ -233,6 +238,24 @@ background-color: #6351ce;
     padding: 10px 0;
     color: #fff;
 }
+.social-icon i:hover{
+  background: #fff;
+  border-radius: 50px;
+  padding: 5px;
+ }
+ .fb-ic i:hover{
+   color: #007bff;
+ }
+ .tw-ic i:hover{
+   color: #00c6ff;
+ }
+ .gplus-ic i:hover{
+   color: #DC3545;
+ }
+ .li-ic i:hover{
+   color: #007bff;
+ }
+ 
 .footer-copyright{
     background-color: #6351ce;
     color: #fff;
@@ -253,6 +276,7 @@ background-color: #6351ce;
     border-radius: 50px;
     z-index: 9811 !important;
 }
+
 @media only screen and (max-width: 767px) {
     #scrollUp {
       width: 40px;
